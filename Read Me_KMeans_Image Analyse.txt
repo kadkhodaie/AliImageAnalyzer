@@ -1,0 +1,27 @@
+Why:
+Applied to rock thin-section image analysis such methods save time, 
+reduce subjectivity and improve accuracy compared to traditional visual techniques. 
+MATLAB code was generated to automatically segment
+ and measure the digital rock porosity by applying the K-means clustering algorithm. 
+Image-derived 2D porosity distributions in carbonate rocks often occur in spatial clusters 
+and such clusters can be mapped with cluster algorithms . 
+K–means clustering is an effective way of distinguishing porosity clusters 
+ and can be rapidly applied using various distance functions to minimize SSE
+
+How:
+1. The generated code should be run on Matlab environment.
+2. We need to define the image name using "he = imread('nano.jpg');" 
+3. The number of clusters should be selected and 
+the standard deviations of their distributions applied can be varied to identify
+ the number that separates the data most effectively.
+4.  The total porosity can be detected using colour analyses.
+
+How to launch the test:
+
+1. Open the MATLAB Software
+2. Copy the code to the "new script" section
+3. Give the directory adress of the thin-section image that you are going to calculate its porosity.
+4. Edite the name of the figure using this line "he = imread('image25.jpg');"
+5. Press the run botton
+6. Enter the number of colors you detected in your image. in the test image we can enter number "3".
+7. Now the proccesed images have been generated and the value of total porosity (objects in class 3) is  7 percent for the test sample.
